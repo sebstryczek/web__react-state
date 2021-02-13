@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import { useStateValue, Action, StateContext } from './';
 // import { getState } from '../App';
 
@@ -35,13 +34,13 @@ export const ThemedButtonF = () => {
   // const { state, dispatch } = useStateValue();
   // const { _example } = state;
 
-  // const arr: any = getState();
-  // const theme = arr[0];
+  const arr: any = 'getState()';
+  const theme = arr[0];
   // const dispatch = arr[1];
   return (
     <div>
       {
-        // JSON.stringify(theme)
+        JSON.stringify(theme)
       }
       {
         console.log('rerender F')
